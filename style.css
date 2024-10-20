@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+/* :::HEADER codes starts here */
+
+header {
+    background-color: #f2f2f2 !important;
+}
+
+/* navbar code */
+/*view btn code  */
+.view-btn {
+    background-color: #bf1e2d !important;
+    color: #fff !important;
+    padding: 8px 32px;
+    border: 2px solid #bf1e2d;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+/* view btn code */
+
+.nav-item a {
+    /* background-color: aquamarine !important; */
+    color: #445383 !important;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 12.8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-item a:hover {
+    color: #bf1e2d !important;
+}
+
+.dropdown-menu {
+    /* background-color: aqua !important; */
+    top: 50px;
+    border: none;
+}
+
+.dropdown-item {
+    color: #445383 !important;
+}
+
+.nav-item a:hover {
+    /* color: #445383 !important; */
+}
+
+.btn {
+    color: #fff !important;
+    background-color: #bf1e2d !important;
+    border-radius: 50px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #e45463 !important;
+}
+
+/* navbarcode */
+
+/* Herosection code */
+.heroContent h1 {
+    text-align: center;
+}
+
+.heroContent h1 a {
+    text-decoration: none;
+    color: #bf1e2d;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.heroLinks li {
+    list-style: none;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: #898989 !important;
+}
+
+.heroLinks i {
+    color: #b21e2e;
+}
+
+.heroBtn button {
+    background-color: #bf1e2d;
+    border: 1px solid #bf1e2d;
+    color: #fff;
+    padding: 8px 23px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.heroBtn .btn-view {
+    background-color: #f2f2f2;
+    border: 2px solid #bf1e2d;
+    color: #bf1e2d;
+    padding: 8px 23px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.heroBtn .btn-view:hover {
+    background-color: #bf1e2d;
+    color: #fff;
+}
+
+/* Herosection code */
+/* :::HEADER codes ends here */
+
+/*:::MAIN codes starts here*/
+/*  */
+.billingSection {
+    background-color: #f9fbfd !important;
+}
+
+.billingSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.billingSection p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.billingSection p a {
+    color: #bf1e2d !important;
+    text-decoration: none;
+}
+
+/*  */
+
+/*  */
+.invoicingSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.invoicingSection p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.invoicingSection p a {
+    color: #bf1e2d !important;
+    text-decoration: none;
+}
+
+/*  */
+
+/*  */
+.erpSection {
+    background-color: #f9fbfd !important;
+}
+
+.erpSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.erpSection p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.erpSection p a {
+    color: #bf1e2d !important;
+    text-decoration: none;
+}
+
+/*  */
+
+/*  */
+.crmSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.crmSection p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.crmSection p a {
+    color: #bf1e2d !important;
+    text-decoration: none;
+}
+
+/*  */
+
+/*  */
+.clientsSection {
+    background-color: #f9fbfd !important;
+}
+
+.clientsSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.clientsSection p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.clientsSection p a {
+    color: #bf1e2d !important;
+    text-decoration: none;
+}
+
+/*  */
+
+/*  */
+.invoiceMakerSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.invoiceMakerSection p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+/*  */
+
+/*  */
+.quotationSection {
+    background-color: #f9fbfd !important;
+}
+
+.quotationSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.quotationSection p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+/*  */
+
+/*  */
+.inventorySection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.inventorySection p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+/*  */
+
+/*  */
+.FAQSection {
+    background-color: #f9fbfd !important;
+}
+
+.FAQSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.accordion-item {
+    margin-top: 10px;
+    border-top: 1px solid #d9d9d9 !important;
+}
+
+.FAQSection h2 span {
+    color: #666666 !important;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.FAQSection .accordion-body p {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+/*  */
+
+/*  */
+.startContent h2 {
+    color: #1b1b1b !important;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.startContent p {
+    color: #909aaf !important;
+    padding: 0 90px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.startContent p a {
+    color: #b21e2e !important;
+    text-decoration: none;
+}
+
+.startDetail h3 {
+    color: #1b1b1b !important;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.startDetail span {
+    background-color: #b21e2e !important;
+    color: #ffffff;
+    padding: 2px 7px;
+    margin-right: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.startDetail p {
+    color: #909aaf !important;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+/*  */
+
+/*  */
+.freeSection {
+    background-color: #9c9c9c;
+}
+
+.freeSection h2 {
+    color: #ffffff !important;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.freeSection p {
+    color: #ffffff !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.freeButton {
+    background-color: #ffffff !important;
+    color: #bf1e2d !important;
+    padding: 10px 32px;
+    font-size: 12px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+
+/*  */
+
+/*  */
+.ourClientsSection h2 {
+    color: #212529 !important;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.ourClientsContent h6 {
+    color: #1b1b1b !important;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.ourClientsContent p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+/*  */
+
+/*  */
+.why-usSection {
+    background-color: #f9fbfd !important;
+}
+
+.why-usSection h2 {
+    color: #1b1b1b !important;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.why-usContent p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.why-usContent b {
+    color: #898989 !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.why-usContent .star p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.why-usContent .star i {
+    color: orange !important;
+}
+
+.why-usContent .rate {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.why-usContent .link a {
+    color: #b21e2e;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.why-usCard {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 7px;
+    box-shadow: 0px 0px 25px rgba(151, 160, 191, 0.3);
+}
+
+.why-usCard figure {
+    padding: 15px;
+}
+
+.why-usText {
+    padding: 15px;
+}
+
+.why-usText h3 {
+    color: #1b1b1b !important;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.why-usText p {
+    color: #909aaf !important;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*  */
+/* :::MAIN codes ends here  */
+
+/* ::: FOOTER code Starts here*/
+/* footer code */
+
+.navFooter {
+    /* background-color: #b21e2e !important; */
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    gap: 5px !important;
+}
+
+.navFooter li {
+    list-style: none;
+    text-align: center !important;
+}
+
+.navFooter li a {
+    color: #445383;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.navFooter a:hover {
+    color: #bf1e2d;
+}
+
+.navIcons i {
+    background-color: #b21e2e !important;
+    color: #ffffff !important;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footCopy p {
+    color: #909aaf !important;
+    font-size: 13px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+/* footer code */
+/* ::: FOOTER code Starts here*/
+
+
+
+/* :::RESPONSIVE codes for 576px */
+
+@media(width <=576px) {
+    .heroBtn button {
+        width: 90% !important;
+    }
+
+    .startContent p{
+        padding: 0;
+    }
+}
+
+/* --- */
+
+@media(width <=450px) {
+    .navFooter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        /* padding-top: 10px; */
+    }
+}
+
+/*  */
